@@ -56,20 +56,6 @@ Server says:   [CV] You must wait 187s before starting another vote.
 
 ---
 
-## Installation
-
-1. Build the plugin:
-   ```
-   dotnet build -c Release
-   ```
-2. Copy `WeatherPlugin.dll` to:
-   ```
-   U3DS\Rocket\Plugins\WeatherPlugin.dll
-   ```
-3. Restart the server. You should see `[WeatherPlugin] Loaded!` in the console.
-
----
-
 ## Permissions
 
 Add `weather.cv` to any group that should be able to vote. Typically this goes in the **default** (all players) group.
